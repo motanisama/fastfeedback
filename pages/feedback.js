@@ -13,7 +13,7 @@ import FeedBackTable from '@/components/FeedBackTable';
 import SiteTableHeader from '@/components/SiteTableHeader';
 import FeedbackTableHeaders from '@/components/FeedbackTableHeaders';
 
-export default function myFeedback() {
+export default function MyFeedback() {
    const auth = useAuth();
 
    const { data } = useSWR(
