@@ -1,5 +1,6 @@
 import { getAllSites, getUserSites, getUserFeedback } from '@/lib/admin-db';
 import { auth } from '@/lib/db-admin';
+import { logger } from 'utils/logger';
 
 export default async (req, res) => {
    try {
